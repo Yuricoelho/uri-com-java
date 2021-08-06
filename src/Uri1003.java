@@ -5,10 +5,8 @@ public class Uri1003 {
         Scanner leitor = new Scanner(System.in);
         int A = leitor.nextInt();
         int B = leitor.nextInt();
-        int PROD;
+        int SOMA = A + B;
 
-        PROD = A * B;
-
-        System.out.println("PROD = " + PROD);
+        System.out.println("SOMA = " + SOMA);
     }
 }
